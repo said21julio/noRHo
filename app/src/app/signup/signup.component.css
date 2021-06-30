@@ -1,0 +1,30 @@
+
+
+.container{
+    width: 30%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+h1{
+    font-size: 40px;
+    margin: auto;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+mat-form-field, button {
+    margin-top: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+::ng-deep .success{
+    background-color: green;
+    color:white;
+  }
+
+  ::ng-deep .error{
+    background-color: #F33;
+    color:white;
+  }

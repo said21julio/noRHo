@@ -1,0 +1,35 @@
+
+
+h1 {
+    border-bottom: solid 1px #111;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+mat-form-field  {
+    width: 100%;
+}
+
+mat-button-toggle-group {
+    position: absolute;
+    left: 0px;
+}
+
+.example-card {
+    max-width: 500px;
+    height: 500px;
+    -webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.5);
+
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }

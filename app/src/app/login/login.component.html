@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>My News Feed</h1>
+    <form>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>User</mat-label>
+            <input [formControl]="userForm"  matInput >
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Password</mat-label>
+            <input [formControl]="passwordForm" matInput >
+        </mat-form-field>
+
+        <a  routerLink="/signup">Sign up</a>
+        <button (click)="login()" type="button" mat-raised-button>
+            Login
+        </button>
+    </form>
+</div>
